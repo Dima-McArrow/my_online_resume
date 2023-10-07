@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+input,
+button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-width: 0;
+  background-color: transparent;
+}
+
+h1 {
+  font-family: "Rubik 80s Fade", cursive;
+  font-size: 3rem;
+}
+
+footer {
+  width: 100vw;
+  height: 10vh;
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+  background-color: #332C23;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2em;
+}
+
+header {
+  width: 100vw;
+  height: 15vh;
+  background-color: #332C23;
+  color: #fff;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  position: relative;
+}
+header nav {
+  margin-bottom: 2em;
+  margin-right: 2em;
+}
+header ul {
+  display: flex;
+  gap: 2em;
+  justify-content: end;
+  font-family: "Ubuntu", sans-serif;
+}
+header .header_logo {
+  width: 5em;
+  height: auto;
+}
+header .lang_icon {
+  transform: rotate(180deg);
+}
+header .header-logo_svg {
+  position: absolute;
+  width: 5em;
+  height: auto;
+  top: 1.9em;
+  left: 1em;
+}
+
+.section_one {
+  width: 100vw;
+  height: 100vh;
+  background-color: #FFF8F0;
+  display: flex;
+  gap: 2em;
+  flex-direction: column;
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  align-items: center;
+  text-align: center;
+  padding-top: 3em;
+}
+.section_one h1 {
+  margin-top: 2em;
+  color: rgb(87, 87, 87);
+}
+.section_one p {
+  margin-left: 2em;
+  margin-right: 2em;
+  color: rgb(87, 87, 87);
+}
+
+.work_exp {
+  width: 100vw;
+  height: 100vh;
+  background-color: #9F87AF;
+  display: flex;
+  gap: 2em;
+  flex-direction: column;
+  font-family: "Ubuntu", sans-serif;
+  padding: 3em;
+  overflow: hidden;
+  align-items: center;
+}
+.work_exp h2 {
+  color: rgb(87, 87, 87);
+}
+.work_exp ul {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1em;
+  border-radius: 0.5em;
+}
+.work_exp li {
+  margin-bottom: 2em;
+  background-color: rgba(35, 35, 35, 0.4);
+  border-radius: 0.5em;
+  padding: 1em;
+  color: #fff;
+}
+.work_exp svg:hover {
+  cursor: pointer;
+}
+.work_exp .svgShow {
+  display: none;
+}
+
+.education {
+  width: 100vw;
+  height: 100vh;
+  background-color: #88527F;
+  display: flex;
+  gap: 2em;
+  flex-direction: column;
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  align-items: center;
+  text-align: justify;
+  padding: 3em;
+}
+.education h2 {
+  color: #fff;
+}
+.education ul {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1em;
+  border-radius: 0.5em;
+}
+.education li {
+  margin-bottom: 2em;
+  background-color: rgba(35, 35, 35, 0.4);
+  border-radius: 0.5em;
+  padding: 1em;
+  color: #fff;
+}
+
+.picFrame_wrapper {
+  position: relative;
+}
+
+.picFrame__bottom {
+  width: 15em;
+  height: 15em;
+  border-top: 3.5em solid gray;
+  border-left: 3.5em solid gray;
+  transform: rotate(225deg);
+  position: absolute;
+  top: 45px;
+  left: 3px;
+  z-index: 999;
+}
+
+.picFrame__top {
+  width: 15em;
+  height: 15em;
+  border-top: 2em solid gray;
+  border-left: 2em solid gray;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 45px;
+  left: 3px;
+  z-index: 0;
+  opacity: 0.8;
+}
+
+img {
+  width: 200px;
+  height: auto;
+  margin-left: 1.5em;
+  z-index: 55;
+  position: relative;
+}
+
+.projects {
+  width: 100vw;
+  height: 100vh;
+  background-color: #614344;
+  display: flex;
+  gap: 2em;
+  flex-direction: column;
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  align-items: center;
+  text-align: center;
+  padding-top: 3em;
+  overflow: scroll;
+}
+.projects h2 {
+  color: #fff;
+}
+.projects iframe {
+  width: 60em;
+  height: 40em;
+}
+
+.contact_form--section {
+  width: 100vw;
+  height: 100vh;
+  background-color: #FFF8F0;
+  display: flex;
+  gap: 2em;
+  flex-direction: column;
+  font-family: "Ubuntu", sans-serif;
+  padding-top: 3em;
+  display: flex;
+  align-items: center;
+}
+.contact_form--section h2 {
+  color: rgb(87, 87, 87);
+}
+.contact_form--section .submit-button {
+  padding: 1em;
+  background-color: #B1DDF1;
+  margin-top: 2em;
+  border-radius: 0.5em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.6);
+}
+.contact_form--section .submit-button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.contact_form--section .contact_form {
+  height: auto;
+  padding: 3em;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 0.7em;
+  flex-direction: column;
+}
+.contact_form--section .contact_form textarea {
+  border: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 0.3em;
+  width: 100%;
+  height: 17em;
+}
+.contact_form--section .contact_form label {
+  flex-grow: 0;
+}
+.contact_form--section .contact_form div {
+  width: 95%;
+  display: flex;
+  gap: 1em;
+  background-color: #332C23;
+  margin-bottom: 0.4em;
+  padding: 1em;
+  border-radius: 0.3em;
+}
+.contact_form--section .contact_form div label {
+  flex-grow: 0;
+  color: #fff;
+}
+.contact_form--section .contact_form div input {
+  width: 100%;
+  flex-grow: 5;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 0.3em;
+  padding: 0.5em;
+  color: #fff;
+}
+
+.social_net h3 {
+  margin-bottom: 1em;
+}
+
+.social_net-wrapper {
+  width: 50%;
+  display: flex;
+  gap: 3em;
+  align-items: center;
+}
+.social_net-wrapper div {
+  width: 40px;
+  height: 40px;
+}
+.social_net-wrapper div svg:hover {
+  transform: scale(1.5);
+}/*# sourceMappingURL=style.css.map */

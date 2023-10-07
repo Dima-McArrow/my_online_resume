@@ -1,0 +1,28 @@
+@use "../utils/main" as main;
+
+.education {
+  @include main.section(main.$mainColorFour, column);
+  position: relative;
+  font-family: main.$mainFont;
+  align-items: center;
+  text-align: justify;
+  padding: 3em;
+
+  h2 {
+    color: main.$colorWhite;
+  }
+
+  ul {
+    background-color: main.$appColor;
+    padding: 1em;
+    border-radius: .5em;
+  }
+
+  li {
+    margin-bottom: 2em;
+    background-color: rgba(35, 35, 35, 0.4);
+    border-radius: .5em;
+    padding: 1em;
+    color: main.$colorWhite;
+  }
+}

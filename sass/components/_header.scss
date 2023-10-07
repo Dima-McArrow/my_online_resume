@@ -1,0 +1,42 @@
+@use "../utils/main" as main;
+
+header {
+  width: 100vw;
+  height: 15vh;
+  background-color: main.$mainColorOne;
+  color: main.$colorWhite;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  position: relative;
+
+  nav {
+    margin-bottom: 2em;
+    margin-right: 2em;
+  }
+  
+  ul {
+    display: flex;
+    gap: 2em;
+    justify-content: end;
+    font-family: main.$mainFont;
+  }
+
+  .header_logo {
+    width: 5em;
+    height: auto;
+  }
+
+  .lang_icon {
+    transform: rotate(180deg);
+  }
+
+  .header-logo_svg {
+    position: absolute;
+    width: 5em;
+    height: auto;
+    top: 1.9em;
+    left: 1em;
+  }
+
+}

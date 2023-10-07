@@ -1,0 +1,102 @@
+@use "../utils/main" as main;
+
+
+.contact_form--section {
+  @include main.section(main.$mainColor, column);
+  font-family: main.$mainFont;
+  padding-top: 3em;
+  display: flex;
+  align-items: center;
+  
+  
+  h2 {
+    color: main.$textColorGray;
+  }
+
+  .submit-button {
+    padding: 1em;
+    background-color: main.$mainColorTwo;
+    margin-top: 2em;
+    border-radius: .5em;
+    text-transform: uppercase;
+    color: main.$appColor;
+  }
+
+  .submit-button:hover {
+    opacity: .7;
+    cursor: pointer;
+  }
+  
+  .contact_form {
+    height: auto;
+    padding: 3em;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: main.$appColor;
+    border-radius: .7em;
+    flex-direction: column;
+    
+    textarea {
+      border: none;
+      color: main.$colorWhite;
+      background-color: main.$appColorDark;
+      border-radius: .3em;
+      width: 100%;
+      height: 17em;
+    }
+    
+    label {
+      flex-grow: 0;
+    }
+    
+    div {
+      width: 95%;
+      display: flex;
+      gap: 1em;
+      background-color: main.$mainColorOne;
+      margin-bottom: .4em;
+      padding: 1em;
+      border-radius: .3em;
+    
+      label {
+        flex-grow: 0;
+        color: main.$colorWhite;
+      }
+  
+      input {
+        width: 100%;
+        flex-grow: 5;
+        background-color: main.$appColorDark;
+        border-radius: .3em;
+        padding: .5em;
+        color: main.$colorWhite;
+      }
+
+      
+    }
+  
+  }
+}
+
+.social_net {
+  h3 {
+    margin-bottom: 1em;
+  }
+}
+
+.social_net-wrapper {
+  width: 50%;
+  display: flex;
+  gap: 3em;
+  align-items: center;
+
+  div {
+    width: 40px;
+    height: 40px;
+    svg:hover {
+      transform: scale(1.5);
+    }
+  }
+}

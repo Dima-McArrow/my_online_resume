@@ -1,0 +1,6 @@
+@use "../utils/_main" as main;
+
+h1 {
+  font-family: main.$logoFont;
+  font-size: 3rem;
+}

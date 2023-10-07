@@ -1,0 +1,14 @@
+@use "../utils/_main" as main;
+
+footer {
+  width: 100vw;
+  height: 10vh;
+  font-family: main.$mainFont;
+  color: main.$colorWhite;
+  background-color: main.$mainColorOne;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2em;
+}

@@ -1,0 +1,35 @@
+@use "../utils/main" as main;
+
+.work_exp {
+  @include main.section(main.$mainColorThree, column);
+  font-family: main.$mainFont;
+  padding: 3em;
+  overflow: hidden;
+  align-items: center;
+
+  h2 {
+    color: main.$textColorGray;
+  }
+
+  ul {
+    background-color: main.$appColor;
+    padding: 1em;
+    border-radius: .5em;
+  }
+
+  li {
+    margin-bottom: 2em;
+    background-color: rgba(35, 35, 35, 0.4);
+    border-radius: .5em;
+    padding: 1em;
+    color: main.$colorWhite;
+  }
+  
+  svg:hover {
+    cursor: pointer;
+  }
+
+  .svgShow {
+    display: none;
+  }
+}

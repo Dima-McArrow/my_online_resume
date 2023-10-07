@@ -1,0 +1,21 @@
+@use "../utils/main" as main;
+
+.section_one {
+  @include main.section(main.$mainColor, column);
+  position: relative;
+  font-family: main.$mainFont;
+  align-items: center;
+  text-align: center;
+  padding-top: 3em;
+
+  h1 {
+    margin-top: 2em;
+    color: main.$textColorGray;
+  }
+
+  p {
+    margin-left: 2em;
+    margin-right: 2em;
+    color: main.$textColorGray;
+  }
+}

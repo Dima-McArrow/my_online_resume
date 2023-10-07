@@ -1,0 +1,11 @@
+@use "./utils/_reset" as reset;
+@use "./atoms/_logo";
+@use "./components/_footer";
+@use "./components/header";
+@use "./components/sectionOne";
+@use "./components/work_exp";
+@use "./components/education";
+@use "./atoms/_pic";
+
+@use "./components/projects";
+@use "./components/contact"
