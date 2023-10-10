@@ -229,7 +229,6 @@ img {
   flex-direction: column;
   font-family: "Ubuntu", sans-serif;
   padding-top: 3em;
-  display: flex;
   align-items: center;
 }
 .contact_form--section h2 {
