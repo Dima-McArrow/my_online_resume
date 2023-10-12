@@ -229,6 +229,7 @@ img {
   flex-direction: column;
   font-family: "Ubuntu", sans-serif;
   padding-top: 3em;
+  display: flex;
   align-items: center;
 }
 .contact_form--section h2 {
@@ -290,20 +291,19 @@ img {
   color: #fff;
 }
 
-.social_net h3 {
-  margin-bottom: 1em;
-}
-
-.social_net-wrapper {
+.social_net-wrapper,
+.git_hub {
   width: 50%;
   display: flex;
   gap: 3em;
   align-items: center;
 }
-.social_net-wrapper div {
+.social_net-wrapper div,
+.git_hub div {
   width: 40px;
   height: 40px;
 }
-.social_net-wrapper div svg:hover {
+.social_net-wrapper div svg:hover,
+.git_hub div svg:hover {
   transform: scale(1.5);
 }/*# sourceMappingURL=style.css.map */

@@ -80,13 +80,10 @@
   }
 }
 
-.social_net {
-  h3 {
-    margin-bottom: 1em;
-  }
-}
 
-.social_net-wrapper {
+
+.social_net-wrapper,
+.git_hub {
   width: 50%;
   display: flex;
   gap: 3em;
