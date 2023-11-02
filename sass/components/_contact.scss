@@ -2,7 +2,7 @@
 
 
 .contact_form--section {
-  @include main.section(main.$mainColor, column);
+  @include main.section(main.$mainColorFour, column);
   font-family: main.$mainFont;
   padding-top: 3em;
   display: flex;
@@ -10,7 +10,10 @@
   
   
   h2 {
-    color: main.$textColorGray;
+    color: main.$appColorDark;
+    text-shadow: 0 0 2em black;
+    font-size: 4em;
+    text-transform: uppercase;
   }
 
   .submit-button {
@@ -45,6 +48,7 @@
       border-radius: .3em;
       width: 100%;
       height: 17em;
+      margin-left: 1em;
     }
     
     label {
@@ -61,13 +65,12 @@
       border-radius: .3em;
     
       label {
-        flex-grow: 0;
         color: main.$colorWhite;
+        width: 3em;
       }
   
       input {
         width: 100%;
-        flex-grow: 5;
         background-color: main.$appColorDark;
         border-radius: .3em;
         padding: .5em;

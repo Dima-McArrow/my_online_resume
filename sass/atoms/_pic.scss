@@ -1,6 +1,7 @@
 @use "../utils/_main" as main;
 
 
+
 .picFrame_wrapper {
   position: relative;
 }
@@ -15,6 +16,7 @@
   top: 45px;
   left: 3px;
   z-index: 999;
+  
 }
 
 .picFrame__top {
@@ -28,6 +30,7 @@
   left: 3px;
   z-index: 0;
   opacity: .8;
+  box-shadow: .4em .4em 1em black;
 }
 
 img {
@@ -36,4 +39,5 @@ img {
   margin-left: 1.5em;
   z-index: 55;
   position: relative;
+  /* filter: grayscale(100%); */
 }

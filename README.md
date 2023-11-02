@@ -1,4 +1,4 @@
-#My resume web site.
+# My resume web site.
 
 >version 0.5
 
@@ -6,5 +6,3 @@
 - CSS
 - Sass
 - JavaScript
-
-

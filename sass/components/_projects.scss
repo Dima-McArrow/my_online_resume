@@ -1,20 +1,60 @@
 @use "../utils/main" as main;
 
 .projects {
-  @include main.section(main.$mainColorFive, column);
   position: relative;
   font-family: main.$mainFont;
-  align-items: center;
   text-align: center;
-  padding-top: 3em;
   overflow: scroll;
+  padding: 2em 2em;
+  background-color: main.$mainColor;
 
   h2 {
-    color: main.$colorWhite;
+    color: main.$appColorDark;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    margin-bottom: 2em;
+    font-size: 4em;
+    text-transform: uppercase;
   }
+}
 
-  iframe {
-    width: 60em;
-    height: 40em;
+.cardsWrap {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+}
+
+.cardProj {
+  border: 1px solid rgb(75, 75, 75);
+  width: 37em;
+  height: 27em;
+  margin-bottom: 3em;
+  border-radius: 1em;
+}
+.cardTop {
+  width: 37em;
+  height: 15em;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+iframe {
+  width: 37em;
+  height: 15em;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  overflow: hidden;
+  }
+.cardBody {
+  padding-top: 3em;
+  background-color: main.$cardBody;
+  height: 12em;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+
+
+  a {
+    color: main.$mainColorFour;
   }
 }

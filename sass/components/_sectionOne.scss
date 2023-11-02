@@ -11,6 +11,9 @@
   h1 {
     margin-top: 2em;
     color: main.$textColorGray;
+    text-shadow: main.$textColorGray 2px 2px 21px;
+    font-size: 4em;
+    text-transform: uppercase;
   }
 
   p {
