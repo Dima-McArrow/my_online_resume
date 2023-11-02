@@ -2,7 +2,7 @@
 
 
 .contact_form--section {
-  @include main.section(main.$mainColorFour, column);
+  @include main.section(main.$mainColor, column);
   font-family: main.$mainFont;
   padding-top: 3em;
   display: flex;
@@ -10,8 +10,7 @@
   
   
   h2 {
-    color: main.$appColorDark;
-    text-shadow: 0 0 2em black;
+    color: main.$textColorGray;
     font-size: 4em;
     text-transform: uppercase;
   }
@@ -85,12 +84,14 @@
 
 
 
-.social_net-wrapper,
+.social_net,
 .git_hub {
   width: 50%;
+  height: auto;
   display: flex;
   gap: 3em;
   align-items: center;
+  justify-content: center;
 
   div {
     width: 40px;
@@ -99,4 +100,7 @@
       transform: scale(1.5);
     }
   }
+}
+.social_net {
+  margin-bottom: 5em;
 }

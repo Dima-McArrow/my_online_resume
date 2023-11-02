@@ -1,7 +1,7 @@
 @use "../utils/main" as main;
 
 .education {
-  @include main.section(main.$mainColorFour, column);
+  @include main.section(main.$mainColor, column);
   position: relative;
   font-family: main.$mainFont;
   align-items: center;
@@ -9,9 +9,10 @@
   padding: 3em;
 
   h2 {
-    color: main.$colorWhite;
+    color: main.$textColorGray;
     font-size: 4em;
     text-transform: uppercase;
+    margin-bottom: 2.2em;
   }
 
   ul {
@@ -26,5 +27,13 @@
     border-radius: .5em;
     padding: 1em;
     color: main.$colorWhite;
+
+    h3, p {
+      margin-bottom: 1em;
+    }
+
+    p {
+      margin-top: .7em;
+    }
   }
 }

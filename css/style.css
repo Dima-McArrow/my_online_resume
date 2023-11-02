@@ -39,6 +39,7 @@ footer {
   justify-content: center;
   flex-direction: column;
   gap: 2em;
+  padding: 5em;
 }
 
 header {
@@ -78,11 +79,11 @@ header .header-logo_svg {
 
 .section_one {
   width: 100vw;
-  height: 100vh;
   background-color: #FFF8F0;
   display: flex;
   gap: 2em;
   flex-direction: column;
+  height: 100vh;
   position: relative;
   font-family: "Ubuntu", sans-serif;
   align-items: center;
@@ -92,20 +93,22 @@ header .header-logo_svg {
 .section_one h1 {
   margin-top: 2em;
   color: rgb(87, 87, 87);
-  text-shadow: rgb(87, 87, 87) 2px 2px 21px;
   font-size: 4em;
   text-transform: uppercase;
 }
-.section_one p {
+.section_one .presCont {
+  padding: 2em 7em 0 7em;
+}
+.section_one .presCont p {
   margin-left: 2em;
   margin-right: 2em;
   color: rgb(87, 87, 87);
+  text-align: justify;
 }
 
 .work_exp {
   width: 100vw;
-  height: 100vh;
-  background-color: #9F87AF;
+  background-color: #FFF8F0;
   display: flex;
   gap: 2em;
   flex-direction: column;
@@ -118,11 +121,13 @@ header .header-logo_svg {
   color: rgb(87, 87, 87);
   font-size: 4em;
   text-transform: uppercase;
+  margin-bottom: 1em;
 }
 .work_exp ul {
   background-color: rgba(0, 0, 0, 0.6);
   padding: 1em;
   border-radius: 0.5em;
+  margin: 0 3em 0 3em;
 }
 .work_exp li {
   margin-bottom: 2em;
@@ -130,6 +135,12 @@ header .header-logo_svg {
   border-radius: 0.5em;
   padding: 1em;
   color: #fff;
+}
+.work_exp li h3, .work_exp li p {
+  margin-bottom: 0.5em;
+}
+.work_exp li p {
+  margin-top: 0.2em;
 }
 .work_exp svg:hover {
   cursor: pointer;
@@ -140,8 +151,7 @@ header .header-logo_svg {
 
 .education {
   width: 100vw;
-  height: 100vh;
-  background-color: #88527F;
+  background-color: #FFF8F0;
   display: flex;
   gap: 2em;
   flex-direction: column;
@@ -152,9 +162,10 @@ header .header-logo_svg {
   padding: 3em;
 }
 .education h2 {
-  color: #fff;
+  color: rgb(87, 87, 87);
   font-size: 4em;
   text-transform: uppercase;
+  margin-bottom: 2.2em;
 }
 .education ul {
   background-color: rgba(0, 0, 0, 0.6);
@@ -167,6 +178,12 @@ header .header-logo_svg {
   border-radius: 0.5em;
   padding: 1em;
   color: #fff;
+}
+.education li h3, .education li p {
+  margin-bottom: 1em;
+}
+.education li p {
+  margin-top: 0.7em;
 }
 
 .picFrame_wrapper {
@@ -217,8 +234,7 @@ img {
   background-color: #FFF8F0;
 }
 .projects h2 {
-  color: rgba(0, 0, 0, 0.2);
-  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  color: rgb(87, 87, 87);
   margin-bottom: 2em;
   font-size: 4em;
   text-transform: uppercase;
@@ -269,8 +285,7 @@ iframe {
 
 .contact_form--section {
   width: 100vw;
-  height: 100vh;
-  background-color: #88527F;
+  background-color: #FFF8F0;
   display: flex;
   gap: 2em;
   flex-direction: column;
@@ -280,8 +295,7 @@ iframe {
   align-items: center;
 }
 .contact_form--section h2 {
-  color: rgba(0, 0, 0, 0.2);
-  text-shadow: 0 0 2em black;
+  color: rgb(87, 87, 87);
   font-size: 4em;
   text-transform: uppercase;
 }
@@ -341,19 +355,25 @@ iframe {
   color: #fff;
 }
 
-.social_net-wrapper,
+.social_net,
 .git_hub {
   width: 50%;
+  height: auto;
   display: flex;
   gap: 3em;
   align-items: center;
+  justify-content: center;
 }
-.social_net-wrapper div,
+.social_net div,
 .git_hub div {
   width: 40px;
   height: 40px;
 }
-.social_net-wrapper div svg:hover,
+.social_net div svg:hover,
 .git_hub div svg:hover {
   transform: scale(1.5);
+}
+
+.social_net {
+  margin-bottom: 5em;
 }/*# sourceMappingURL=style.css.map */

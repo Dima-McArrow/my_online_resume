@@ -1,7 +1,7 @@
 @use "../utils/main" as main;
 
 .work_exp {
-  @include main.section(main.$mainColorThree, column);
+  @include main.section(main.$mainColor, column);
   font-family: main.$mainFont;
   padding: 3em;
   overflow: hidden;
@@ -11,12 +11,14 @@
     color: main.$textColorGray;
     font-size: 4em;
     text-transform: uppercase;
+    margin-bottom: 1em;
   }
 
   ul {
     background-color: main.$appColor;
     padding: 1em;
     border-radius: .5em;
+    margin: 0 3em 0 3em;
   }
 
   li {
@@ -25,6 +27,14 @@
     border-radius: .5em;
     padding: 1em;
     color: main.$colorWhite;
+
+    h3, p {
+      margin-bottom: .5em;
+    }
+
+    p {
+      margin-top: .2em;
+    }
   }
   
   svg:hover {
