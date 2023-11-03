@@ -10,6 +10,29 @@ header {
   justify-content: end;
   position: relative;
 
+  .logo {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 3em;
+    left: 2em;
+    width: 24em;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1em;
+
+    img {
+      width: 3em;
+      height: 3em;
+    }
+
+    h2 {
+      text-transform: uppercase;
+      color: main.$cardBody;
+      font-family: main.$mainFont;
+    }
+  }
+
   nav {
     margin-bottom: 2em;
     margin-right: 2em;
@@ -21,22 +44,4 @@ header {
     justify-content: end;
     font-family: main.$mainFont;
   }
-
-  .header_logo {
-    width: 5em;
-    height: auto;
-  }
-
-  .lang_icon {
-    transform: rotate(180deg);
-  }
-
-  .header-logo_svg {
-    position: absolute;
-    width: 5em;
-    height: auto;
-    top: 1.9em;
-    left: 1em;
-  }
-
 }
