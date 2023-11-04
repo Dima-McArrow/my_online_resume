@@ -56,8 +56,8 @@ header .logo {
   display: flex;
   flex-direction: row;
   position: absolute;
-  top: 3em;
-  left: 2em;
+  top: 1.5em;
+  left: 1em;
   width: 24em;
   justify-content: flex-start;
   align-items: center;

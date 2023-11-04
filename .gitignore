@@ -1,3 +1,6 @@
 *.zip
 *.rar
 *.txt
+/sass
+/node_modules/jquery/src
+*.json
