@@ -36,22 +36,24 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: main.$appColor;
+    background-color: main.$newLightGrey;
     border-radius: .7em;
     flex-direction: column;
     
     textarea {
       border: none;
       color: main.$colorWhite;
-      background-color: main.$appColorDark;
+      background-color: main.$newDarkGrey;
       border-radius: .3em;
       width: 100%;
       height: 17em;
       margin-left: 1em;
+      caret-color: main.$colorWhite;
     }
     
     label {
       flex-grow: 0;
+      text-transform: uppercase;
     }
     
     div {
@@ -70,10 +72,11 @@
   
       input {
         width: 100%;
-        background-color: main.$appColorDark;
+        background-color: main.$newDarkGrey;
         border-radius: .3em;
         padding: .5em;
         color: main.$colorWhite;
+        caret-color: main.$colorWhite;
       }
 
       
@@ -81,8 +84,6 @@
   
   }
 }
-
-
 
 .social_net,
 .git_hub {

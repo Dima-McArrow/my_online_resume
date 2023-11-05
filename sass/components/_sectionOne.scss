@@ -11,9 +11,10 @@
 
   h1 {
     margin-top: 2em;
-    color: main.$textColorGray;
+    color: main.$colorBlack;
     font-size: 4em;
     text-transform: uppercase;
+    text-shadow: 0 0 .3em rgb(255, 255, 255);
   }
 
   .presCont {

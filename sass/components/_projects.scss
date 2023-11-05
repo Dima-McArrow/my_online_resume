@@ -27,33 +27,46 @@
 
 .cardProj {
   border: 1px solid rgb(75, 75, 75);
-  width: 37em;
+  width: 27em;
   height: 27em;
   margin-bottom: 3em;
   border-radius: 1em;
 }
 .cardTop {
-  width: 37em;
+  width: 27em;
   height: 15em;
   border-top-left-radius: 1em;
   border-top-right-radius: 1em;
+  background-size: contain;
 }
-iframe {
-  width: 37em;
-  height: 15em;
-  border-top-left-radius: 1em;
-  border-top-right-radius: 1em;
-  overflow: hidden;
-  }
+
 .cardBody {
   padding-top: 3em;
   background-color: main.$cardBody;
   height: 12em;
   border-bottom-left-radius: 1em;
   border-bottom-right-radius: 1em;
+  text-transform: uppercase;
 
 
   a {
+    text-transform: none;
     color: main.$mainColorFour;
   }
+}
+
+.cardOne {
+  background-image: url(../../media/Screenshot\ from\ 2023-11-05\ 02-34-39.png);
+}
+
+.cardTwo {
+  background-image: url(../../media/Screenshot\ from\ 2023-11-05\ 04-01-43.png);
+}
+
+.cardThree {
+  background-image: url(../../media/Screenshot\ from\ 2023-11-05\ 02-35-11.png);
+}
+
+.cardFour {
+  background-image: url(../../media/Screenshot\ from\ 2023-11-05\ 04-00-46.png);
 }

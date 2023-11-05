@@ -8,14 +8,14 @@
   align-items: center;
 
   h2 {
-    color: main.$textColorGray;
+    color: main.$darkGrey;
     font-size: 4em;
     text-transform: uppercase;
     margin-bottom: 1em;
   }
 
   ul {
-    background-color: main.$appColor;
+    background-color: hsla(0, 0%, 40%, .9);
     padding: 1em;
     border-radius: .5em;
     margin: 0 3em 0 3em;
@@ -23,10 +23,11 @@
 
   li {
     margin-bottom: 2em;
-    background-color: rgba(35, 35, 35, 0.4);
+    background-color: hsla(0, 0%, 13%, .9);
     border-radius: .5em;
     padding: 1em;
     color: main.$colorWhite;
+    width: 45em;
 
     h3, p {
       margin-bottom: .5em;
@@ -34,6 +35,15 @@
 
     p {
       margin-top: .2em;
+    }
+
+    .workDescriptionNone {
+      display: none;
+
+      .close_workDescription {
+        margin: 0 50%;
+        transform: translateX(-50%);
+      }
     }
   }
   

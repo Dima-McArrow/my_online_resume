@@ -9,8 +9,8 @@
 .picFrame__bottom {
   width: 15em;
   height: 15em;
-  border-top: 3.5em solid gray;
-  border-left: 3.5em solid gray;
+  border-top: 3.5em solid hsla(0, 0%, 22%, 1);
+  border-left: 3.5em solid hsla(0, 0%, 22%, 1);
   transform: rotate(225deg);
   position: absolute;
   top: 45px;
@@ -22,8 +22,8 @@
 .picFrame__top {
   width: 15em;
   height: 15em;
-  border-top: 2em solid gray;
-  border-left: 2em solid gray;
+  border-top: 2em solid hsla(0, 0%, 30%, 1);
+  border-left: 2em solid hsla(0, 0%, 30%, 1);
   transform: rotate(45deg);
   position: absolute;
   top: 45px;

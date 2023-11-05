@@ -16,14 +16,14 @@
   }
 
   ul {
-    background-color: main.$appColor;
+    background-color: main.$newLightGrey;
     padding: 1em;
     border-radius: .5em;
   }
 
   li {
     margin-bottom: 2em;
-    background-color: rgba(35, 35, 35, 0.4);
+    background-color: main.$newDarkGrey;
     border-radius: .5em;
     padding: 1em;
     color: main.$colorWhite;

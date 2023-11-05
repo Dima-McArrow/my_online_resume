@@ -3,7 +3,7 @@
 header {
   width: 100vw;
   height: 15vh;
-  background-color: main.$mainColorOne;
+  background-color: main.$colorBlack;
   color: main.$colorWhite;
   display: flex;
   align-items: end;
@@ -16,15 +16,12 @@ header {
     position: absolute;
     top: 1.5em;
     left: 1em;
-    width: 24em;
+    width: 17em;
+    height: 4em;
     justify-content: flex-start;
     align-items: center;
-    gap: 1em;
+    gap: .1em;
 
-    img {
-      width: 3em;
-      height: 3em;
-    }
 
     h2 {
       text-transform: uppercase;
